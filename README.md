@@ -12,11 +12,11 @@ This repository implements a Serial communication between an ESP32 and a Python 
 - Pyserial 3.5
 
 ## Features
-- Arduino OTA
-- ESP32 Dual Core:
+- Arduino Over The Air Update (OTA)
+- ESP32 Dual Core using FreeRTOS:
     - Core 1: WiFi and OTA tasks
     - Core 2: Real Time tasks (blink in this example)
-- Real time plot using Dash and Plotly
+- Real time plot using Dash and Plotly [[1]](https://dash.plotly.com/live-updates)
 
 ## Instructions
 1. Create a file called `📒secrets.h` inside  `📂arduino/📂serialDHTOTA` directory. Include the following config parameters and edit accordingly:
