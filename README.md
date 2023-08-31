@@ -19,7 +19,7 @@ This repository implements a Serial communication between an ESP32 and a Python 
 - Real time plot using Dash and Plotly
 
 ## Instructions
-1. Create a file called 📒`secrets.h` inside  `📂arduino/📂serialDHTOTA` directory. Include the following config parameters and edit accordingly:
+1. Create a file called `📒secrets.h` inside  `📂arduino/📂serialDHTOTA` directory. Include the following config parameters and edit accordingly:
     ```c
     #define SECRET_SSID "YOUR_SSID"
     #define SECRET_PASS "YOUR_SSID_PASS"
