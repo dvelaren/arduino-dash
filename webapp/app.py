@@ -4,7 +4,6 @@ from dash.dependencies import Output, Input
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly
-import time
 import plotly.graph_objs as go
 
 ser = serial.Serial("COM4", 115200)  # Change COM3 to your port name
