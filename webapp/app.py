@@ -71,8 +71,8 @@ def update_graph_scatter(n):
     return {
         "data": [temp_plot, hum_plot],
         "layout": go.Layout(
-            xaxis=dict(range=[min(x_data), max(x_data)]),
-            yaxis=dict(range=[0, 100]),
+            xaxis=dict(range=[min(x_data), max(x_data)], title="Samples"),
+            yaxis=dict(range=[0, 100], title="Value"),
             title="DHT11",
         ),
     }
