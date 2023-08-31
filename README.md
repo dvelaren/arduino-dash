@@ -1,6 +1,6 @@
 # Arduino + Dash
 
-This repository implements a Serial communication between an ESP32 and a Python Dash Application running on a PC.
+This repository implements a Serial communication between an ESP32 and a Python Dash Application running on a PC. The ESP32 reads the temperature and humidity from a DHT11 sensor and sends the data to the PC. The Dash app plots the data in real time.
 
 ## Hardware Required
 - ESP32 WROOM 32
