@@ -35,3 +35,4 @@ This repository implements a Serial communication between an ESP32 and a Python 
     ```bash
     python app.py
     ```
+![Alt text](docs/dashboard.png)
