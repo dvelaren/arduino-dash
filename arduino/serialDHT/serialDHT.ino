@@ -1,10 +1,5 @@
 // Libraries
-#include <WiFi.h>
-#include <ESPmDNS.h>
-#include <WiFiUdp.h>
-#include <ArduinoOTA.h>
 #include "DHT.h"
-#include "secrets.h"
 
 // Pin labeling
 #define LED1 2
